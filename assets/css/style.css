@@ -94,6 +94,19 @@
     margin-left: 520px;
  }
 
+ .carousel__btn_second_item {
+  background-color: #d62300 ;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900 ;
+  color: #f5ebdc;
+  font-size: 1.1rem;
+  padding: 12px 110px;
+  border-radius: 10px;
+  z-index: 10;
+  margin-top: 490px;
+  margin-left: 540px;
+ }
+
 
  /* Stores section styles */
 
