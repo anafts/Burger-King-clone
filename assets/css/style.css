@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap');
             
-
-
  /* generic styles */
-
 
  * {
   border: 0;
@@ -11,7 +8,8 @@
   padding: 0;
   text-decoration: none;
  }
- 
+
+
 
  /* menu styles */
 
@@ -54,6 +52,118 @@
   color: #502314;
  }
 
+
+
+ /* carousel style */
+
+ .carousel-control-prev , 
+ .carousel-control-next {
+    width: 50px !important;
+ }
+
+ .carousel {
+    width: 100%;
+    position: relative;
+ }
+
+ .carousel__second {
+    width: 100%;
+ }
+
+ .carousel-indicators li {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+ }
+
+ .carousel__btn {
+    display: flex;
+    position: absolute;
+ }
+
+ .carousel__btn_item {
+    background-color: #d62300 ;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900 ;
+    color: #f5ebdc;
+    font-size: 1.1rem;
+    padding: 12px 90px;
+    border-radius: 10px;
+    z-index: 10;
+    margin-top: 530px;
+    margin-left: 520px;
+ }
+
+
+ /* Stores section styles */
+
+ .stores {
+  background-color: #f5ebdc;
+  height: 490px;
+  text-align: center;
+ }
+
+ .stores__title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900 ; 
+  font-size: 2.8rem;
+  color: #502314;
+  padding-top: 40px;
+ }
+
+ .stores__text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900 ; 
+  font-size: 1.3rem;
+  color: #502314;
+  padding-top: 20px;
+ }
+
+ .stores__text_little {
+  display: flex;
+  justify-content: center;
+ }
+
+ .stores__text_little_item {
+  width: 21.5%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600 ;
+  font-size: 0.8rem;
+
+ }
+
+ .stores__input {
+  background-color: #fff;
+  border: thin solid black;
+  padding: 12px 280px;
+  border-radius: 10px;
+ }
+
+ .stores__input::placeholder {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900 ;
+  color: #757575;
+  font-size: 1.2rem;
+ }
+
+ .input_icon{
+  z-index: 2;
+  position: relative;
+  right: 35px;
+  top: 2px;
+  color: #757575;
+ }
+
+ .stores__btn {
+  background-color: #d62300 ;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900 ;
+  color: #f5ebdc;
+  font-size: 1.1rem;
+  padding: 12px 70px;
+  border-radius: 10px;
+ }
 
 
 
