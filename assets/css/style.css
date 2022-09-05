@@ -74,6 +74,7 @@
     width: 10px !important;
     height: 10px !important;
     border-radius: 50%;
+    margin: 5px !important ;
  }
 
  .carousel__btn {
@@ -217,6 +218,77 @@
  .app__store_img {
   padding-left: 50px;
  }
+
+ /* footer styles */
+
+ .footer {
+  background-color: #502314;
+  min-height: 460px;
+  text-align: center;
+ }
+
+
+ .footer__logo {
+  height: 85px;
+  width: 75px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+ }
+
+ .bg-light {
+  width:96%; 
+ }
+
+ hr {
+  position: relative;
+ }
+
+ hr.bg-light { 
+  margin:30px auto; 
+  border-top:1px solid lightgrey; 
+ }
+
+ .footer__links {
+  display: flex;
+  justify-content: center;
+ }
+
+ .footer__links__items {
+  color:#f5ebdc;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900 ;   
+  font-size: 22px;  
+  padding: 1px 10px;  
+  margin-top: 15px;                       
+ }
+
+ .footer__links__items_second {
+  color:#f5ebdc;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500 ;   
+  font-size: 19px;  
+  padding: 1px 10px;
+  margin-top: 5px;
+
+ }
+
+ .footer__title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900 ;   
+  font-size: 20px;  
+  color: #f5ebdc;
+ }
+
+ .footer_icons_items {
+  width: 32px;
+  height: 32px;
+  margin: 10px 8px 20px;
+ }
+
+ .footer_text {
+  color:#f5ebdc;
+ }
+
 
 
 
