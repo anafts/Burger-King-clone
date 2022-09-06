@@ -1,10 +1,9 @@
+// Hide nav bar on scroll down and show it on scroll up
 const menu = document.querySelector('.menu');
 let lastScroll = 0;
 
 document.addEventListener('scroll', function(){
     const scroll = lastScroll - window.scrollY;
-
-    console.log(window.scrollY);
 
     if (window.scrollY === 0) {
         menu.classList.remove('fixed');
