@@ -53,6 +53,17 @@
  }
 
 
+ /* nav scroll styles */
+ .nav-down{
+   opacity: 0;
+ }
+
+ .fixed {
+   position: fixed;
+   top: 0;
+   z-index: 99;
+ }
+
 
  /* carousel style */
 
@@ -289,12 +300,4 @@
   color:#f5ebdc;
  }
 
- .nav-down{
-   opacity: 0;
-}
 
-.fixed {
-   position: fixed;
-   top: 0;
-   z-index: 99;
-}
