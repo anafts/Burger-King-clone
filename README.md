@@ -6,7 +6,7 @@
 ![preview](./.github/preview.png)
 
 ## 
- Clone da página oficial da Burguer King
+ Clone da página oficial da Burguer King com alterações na fonte, utilizando a mais similar que encontrei. 
  
  #
 
