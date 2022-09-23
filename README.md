@@ -3,7 +3,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/anafts/Burger-King-clone?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/anafts/Burger-King-clone?style=for-the-badge)
 
-![preview](./.github/preview.png)
+![127 0 0 1_5500_ (1)](https://user-images.githubusercontent.com/106173948/192050137-c91ce910-b7d1-422d-b959-6f4675caac62.png)
 
 <br><h4 align="center"> 🟡 Status do projeto: Em andamento  </h4> <br>
 
